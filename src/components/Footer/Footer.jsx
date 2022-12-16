@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/icon-corazon.png";
+import image from "../../assets/images/icon-corazon.png";
 
 function Footer() {
   return (
