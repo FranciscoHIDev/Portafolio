@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       <a href="#home">Home</a>
-      <a href="#about">Sobre mi</a>
+      <a href="#about">Sobre mí</a>
       <a href="#skills">Habilidades</a>
       <a href="#projects">Proyectos</a>
       <a href="#education">Formación</a>
