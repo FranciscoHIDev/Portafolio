@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useState } from "react";
 import validate from "./validate.js";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
   const initialState = {
     name: "",
     email: "",
@@ -25,11 +27,24 @@ function Contact() {
     setError(objError);
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    //Enviar al back
-    setInput(initialState);
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm(
+  //       process.env.REACT_APP_TEMPLATE_ID,
+  //       process.env.REACT_APP_SERVICE_ID,
+  //       form.current,
+  //       process.env.REACT_APP_PUBLIC_KEY
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // }
 
   return (
     <div className="contact" id="contact">
@@ -41,7 +56,7 @@ function Contact() {
         </p>
       </div>
 
-      <form onSubmit={(e) => handleSubmit(e)}>
+      <form ref={form} onSubmit={(e) => handleSubmit(e)}>
         <div>
           <div>
             <label>Nombre: </label>

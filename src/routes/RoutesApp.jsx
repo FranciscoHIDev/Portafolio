@@ -10,7 +10,7 @@ import {
   Projects,
   Contact,
   NotFound,
-} from "../Pages/index";
+} from "../pages/index";
 
 function RoutesApp() {
   return (

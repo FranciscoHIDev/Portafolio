@@ -1,15 +1,47 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">Sobre mí</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#education">Formación</a>
-      <a href="#contact">Contacto</a>
+    <nav className="bg-purple-600 shadow-lg">
+      <div className="container mx-auto">
+        <div className="sm:flex justify-around">
+          <a href="#" className="text-white text-3xl font-bold p-3">
+            Francisco Developer
+          </a>
+          <ul className="text-gray-600 sm:self-center text-xl border-t sm:border-none">
+            <li className="sm:inline-block">
+              <a href="#home" className="p-3 hover:text-white">
+                Home
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#about" className="p-3 hover:text-white">
+                Sobre mí
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#skills" className="p-3 hover:text-white">
+                Habilidades
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#projects" className="p-3 hover:text-white">
+                Proyectos
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#education" className="p-3 hover:text-white">
+                Formación
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#contact" className="p-3 hover:text-white">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 }

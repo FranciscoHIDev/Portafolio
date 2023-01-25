@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about" id="about">
-      <h2>Sobre mí</h2>
-
-      <div>
-        <p>
-          Licenciado en Administración de Empresas y desarrollador Full Stack
+    <div className="flex flex-col text-white" id="about">
+      <p className="pb-4 text-center text-4xl font-bold">Sobre mí</p>
+     
+     <div className="bg-purple-400 rounded-xl p-5 mx-20">
+        <p className="text-2xl text-justify px-10">
+          Soy Licenciado en Administración de Empresas y Full Stack
           Developer, soy una persona con competencias enfocadas al trabajo en
           equipo, responsable, proactivo y con comunicación asertiva, me gusta
           mucho aprender de las experiencias y poder crecer profesionalmente,
@@ -16,8 +16,9 @@ function About() {
           Henry, actualmente sigo capacitandome y aprendiendo nuevas
           herramientas.
         </p>
-        <p></p>
-      </div>
+        </div>
+       
+      
     </div>
   );
 }
