@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="flex flex-col py-20" id="home">
-      <div className="flex flex-col mx-20 text-white">
+      <div className="flex flex-col mx-20 text-white mt-20">
         <p className="text-2xl">¡Hola!</p>
         <p className="text-3xl"> Soy Isidoro Francisco Hilario</p>
         <p className="text-4xl font-bold ">FULL STACK DEVELOPER</p>
