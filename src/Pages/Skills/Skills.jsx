@@ -16,7 +16,7 @@ function Skills() {
       <div className="flex flex-col text-white items-center">
         <p className="pb-4 text-center text-4xl font-bold">Habilidades</p>
 
-        <div className="flex flex-row text-white my-4 p-4 font-bold">
+        <div className="flex flex-row text-white my-4 p-4 font-bold ">
           <div className="bg-purple-400 p-3 rounded-xl m-3 w-44 items-center text-center">
             <img src={html} alt="logo" />
             <p>HTML5</p>
@@ -32,14 +32,14 @@ function Skills() {
           </div>
           <div className="bg-purple-400 p-3 rounded-xl m-3 w-44 items-center text-center">
             <img src={tailwind} alt="logo" />
-            <p>Tailwind</p>
+            <p>Tailwind CSS</p>
           </div>
           <div className="bg-purple-400 p-3 rounded-xl m-3 w-44 items-center text-center">
             <img src={node} alt="logo" />
             <p>NodeJs</p>
           </div>
         </div>
-        <div className="flex flex-row text-white font-bold">
+        <div className="flex flex-row text-white font-bold ">
           <div className="bg-purple-400 p-3 rounded-xl m-3 w-44 items-center text-center">
             <img src={react} alt="logo" />
             <p>React</p>

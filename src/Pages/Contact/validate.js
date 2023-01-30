@@ -13,10 +13,7 @@ function validate(input) {
     }
     else if (!/^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/.test(input.email)) {
         error.email = "El email es invalido"
-    }
-    else if (!input.asunto) {
-        error.asunto = "El asunto es requerido"
-    }
+    }   
     else if (!input.messaje) {
         error.messaje = "El mensaje es requerido"
     }

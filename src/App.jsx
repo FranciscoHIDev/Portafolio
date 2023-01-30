@@ -3,7 +3,7 @@ import RoutesApp from "./routes/RoutesApp";
 
 function App() {
   return (
-    <div className="bg-gray-900 ">
+    <div className="bg-gray-900">
       <RoutesApp />
     </div>
   );

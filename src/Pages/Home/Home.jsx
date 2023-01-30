@@ -1,11 +1,10 @@
 function Home() {
   return (
-    <div className="flex flex-col bg-yellow-500 py-20" id="home">
+    <div className="flex flex-col py-20" id="home">
       <div className="flex flex-col mx-20 text-white">
-        <p className="text-2xl"> Hola! mi nombre es</p>
-
-        <p className="text-3xl">Isidoro Francisco</p>
-        <p className="text-4xl">FULL STACK DEVELOPER</p>
+        <p className="text-2xl">¡Hola!</p>
+        <p className="text-3xl"> Soy Isidoro Francisco Hilario</p>
+        <p className="text-4xl font-bold ">FULL STACK DEVELOPER</p>
         <div className="flex py-10 text-white">
           <a
             href="#cv"
