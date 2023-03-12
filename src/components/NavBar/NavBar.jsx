@@ -3,7 +3,7 @@ import React from "react";
 function NavBar() {
   return (
     <div className=" flex bg-purple-600 w-full fixed">
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <div className="sm:flex justify-around">
           <a href="#" className="text-white text-3xl font-bold p-4">
             {"<Francisco Developer/>"}
