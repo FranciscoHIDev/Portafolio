@@ -11,7 +11,7 @@ function Testimonials() {
             <p className="text-center text-4xl font-bold">Testimonios</p>
           </div>
           <div className="flex flex-row mx-10">
-            <div className="flex flex-col bg-gray-500   rounded-xl w-[450px] p-6 items-center mr-8">
+            <div className="flex flex-col bg-slate-700   rounded-xl w-[450px] p-6 items-center mr-8">
               <img
                 className="w-20 h-20 rounded-full items-center"
                 src="https://media.licdn.com/dms/image/D4E35AQGXBtCBhpNixw/profile-framedphoto-shrink_200_200/0/1680011008516?e=1681351200&v=beta&t=f9KO7uJFSKeH0_xFONmyt5d1vYIEAhX75Y2fe1QpY6c"
@@ -41,7 +41,7 @@ function Testimonials() {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col bg-gray-500   rounded-xl w-[450px] p-6 items-center mr-8">
+            <div className="flex flex-col bg-slate-700   rounded-xl w-[450px] p-6 items-center mr-8">
               <img
                 className="w-20 h-20 rounded-full items-center"
                 src="https://media.licdn.com/dms/image/D4E35AQGXBtCBhpNixw/profile-framedphoto-shrink_200_200/0/1680011008516?e=1681351200&v=beta&t=f9KO7uJFSKeH0_xFONmyt5d1vYIEAhX75Y2fe1QpY6c"

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { BsEyeFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -11,7 +12,7 @@ function Projects() {
             <p className="text-center text-4xl font-bold">Proyectos</p>
           </div>
           <div className="flex flex-row">
-            <div className="bg-gray-500   rounded-xl  mr-10 w-[600px] items-center text-center">
+            <div className="bg-slate-700  rounded-xl  mr-10 w-[600px] items-center text-center">
               <img
                 className="rounded-t-xl"
                 src="https://res.cloudinary.com/duaysiozi/image/upload/v1680930054/PI-henry2_uewhn0.png"
@@ -26,16 +27,28 @@ function Projects() {
               <div className="flex  flex-row justify-center">
                 <div>
                   <BsEyeFill className="text-primary hover:text-secondary" />
-                  <p>DEMO</p>
+                  <a
+                    href="https://henry-pi-food.netlify.app/"
+                    target="_blank"
+                    className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  cursor-pointer"
+                  >
+                    DEMO
+                  </a>
                 </div>
                 <div>
                   <FaGithub className="text-primary hover:text-secondary" />
-                  <p>REPO</p>
+                  <a
+                    href="https://henry-pi-food.netlify.app/"
+                    target="_blank"
+                    className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  cursor-pointer"
+                  >
+                    REPO
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gray-500   rounded-xl  w-[600px] items-center text-center">
+            <div className="bg-slate-700   rounded-xl  w-[600px] items-center text-center">
               <img
                 className="rounded-t-xl"
                 src="https://res.cloudinary.com/duaysiozi/image/upload/v1680930807/carmaniajpg_gm1prf.jpg"
@@ -53,11 +66,23 @@ function Projects() {
               <div className="flex flex-row justify-center">
                 <div>
                   <BsEyeFill className="text-primary hover:text-secondary" />
-                  <p>DEMO</p>
+                  <a
+                    href="https://henry-pi-food.netlify.app/"
+                    target="_blank"
+                    className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  cursor-pointer"
+                  >
+                    DEMO
+                  </a>
                 </div>
                 <div>
                   <FaGithub className="text-primary hover:text-secondary" />
-                  <p>REPO</p>
+                  <a
+                    href="https://carmania-henry.netlify.app/"
+                    target="_blank"
+                    className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  cursor-pointer"
+                  >
+                    REPO
+                  </a>
                 </div>
               </div>
             </div>

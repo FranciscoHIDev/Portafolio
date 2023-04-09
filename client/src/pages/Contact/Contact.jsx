@@ -58,7 +58,7 @@ function Contact() {
               pronto posible.
             </p>
           </div>
-          <div className="flex bg-gray-500 px-20 pt-10 pb-10 rounded-xl  items-center">
+          <div className="flex bg-slate-700 px-20 pt-10 pb-10 rounded-xl  items-center">
             <form ref={form} onSubmit={(e) => handleSubmit(e)}>
               <div className="flex flex-row ">
                 <div className="flex mb-3 mr-3">
