@@ -25,11 +25,11 @@ function Projects() {
               </p>
               <div className="flex  flex-row justify-center">
                 <div>
-                  <BsEyeFill />
+                  <BsEyeFill className="text-primary hover:text-secondary" />
                   <p>DEMO</p>
                 </div>
                 <div>
-                  <FaGithub />
+                  <FaGithub className="text-primary hover:text-secondary" />
                   <p>REPO</p>
                 </div>
               </div>
@@ -52,11 +52,11 @@ function Projects() {
               </p>
               <div className="flex flex-row justify-center">
                 <div>
-                  <BsEyeFill />
+                  <BsEyeFill className="text-primary hover:text-secondary" />
                   <p>DEMO</p>
                 </div>
                 <div>
-                  <FaGithub />
+                  <FaGithub className="text-primary hover:text-secondary" />
                   <p>REPO</p>
                 </div>
               </div>

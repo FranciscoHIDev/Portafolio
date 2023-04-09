@@ -63,7 +63,7 @@ function Contact() {
               <div className="flex flex-row ">
                 <div className="flex mb-3 mr-3">
                   <input
-                    className="rounded-md p-4 text-orange-400"
+                    className="rounded-md p-4 text-background  focus:outline-secondary"
                     type="text"
                     name="name"
                     value={input.name}
@@ -75,7 +75,7 @@ function Contact() {
 
                 <div className="flex mb-3">
                   <input
-                    className="rounded-md p-4 text-orange-400 "
+                    className="rounded-md p-4 text-background  focus:outline-secondary"
                     type="email"
                     name="email"
                     value={input.email}
@@ -98,7 +98,7 @@ function Contact() {
 
               <div className="flex flex-col pb-5">
                 <textarea
-                  className="rounded-md pb-40 px-2 py-3 text-orange-400"
+                  className="rounded-md pb-40 px-2 py-3 text-background  focus:outline-secondary"
                   name="messaje"
                   value={input.messaje}
                   placeholder="Escribe aquí tu mensaje"
@@ -114,7 +114,7 @@ function Contact() {
 
               <div className="flex flex-col items-center">
                 <button
-                  className="bg-red-300 p-3 rounded-xl text-xl font-bold w-40 "
+                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 "
                   type="submit"
                   disabled={
                     !input.name ||

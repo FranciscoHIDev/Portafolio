@@ -18,47 +18,47 @@ function Skills() {
           <p className="pb-4 text-center text-4xl font-bold">Habilidades</p>
 
           <div className="flex flex-row text-white my-4 p-4 font-bold ">
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={html} alt="logo" />
               <p>HTML5</p>
             </div>
 
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44   items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44   items-center text-center">
               <img src={css} alt="logo" />
               <p>CSS3</p>
             </div>
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={js} alt="logo" />
               <p>JavaScript</p>
             </div>
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={tailwind} alt="logo" />
               <p>Tailwind CSS</p>
             </div>
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={node} alt="logo" />
               <p>NodeJs</p>
             </div>
           </div>
           <div className="flex flex-row text-white font-bold ">
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={react} alt="logo" />
               <p>React</p>
             </div>
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={redux} alt="logo" />
               <p>Redux</p>
             </div>
 
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={postgre} alt="logo" />
               <p>PostgreSQL</p>
             </div>
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={git} alt="logo" />
               <p>Git</p>
             </div>
-            <div className="bg-gray-500  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-gray-500 border-solid border-2 border-primary  p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={github} alt="logo" />
               <p>GitHub</p>
             </div>

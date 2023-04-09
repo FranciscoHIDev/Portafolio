@@ -29,11 +29,14 @@ function Testimonials() {
 
                 <Link
                   to="/"
-                  className="mt-2 mr-2 text-[20px] hover:text-red-500"
+                  className="mt-2 mr-2 text-[20px] text-primary hover:text-secondary"
                 >
                   <FaLinkedin />
                 </Link>
-                <Link to="/" className="mt-2 text-[20px] hover:text-red-500">
+                <Link
+                  to="/"
+                  className="mt-2 text-[20px] text-primary hover:text-secondary"
+                >
                   <FaGithub />
                 </Link>
               </div>
@@ -56,11 +59,14 @@ function Testimonials() {
 
                 <Link
                   to="/"
-                  className="mt-2 mr-2 text-[20px] hover:text-red-500"
+                  className="mt-2 mr-2 text-[20px] text-primary hover:text-secondary"
                 >
                   <FaLinkedin />
                 </Link>
-                <Link to="/" className="mt-2 text-[20px] hover:text-red-500">
+                <Link
+                  to="/"
+                  className="mt-2 text-[20px] text-primary hover:text-secondary"
+                >
                   <FaGithub />
                 </Link>
               </div>
@@ -83,11 +89,11 @@ function Testimonials() {
 
                 <Link
                   to="/"
-                  className="mt-2 mr-2 text-[20px] hover:text-red-500"
+                  className="mt-2 mr-2 text-[20px] text-primary hover:text-secondary"
                 >
                   <FaLinkedin />
                 </Link>
-                <Link to="/" className="mt-2 text-[20px] hover:text-red-500">
+                <Link to="/" className="mt-2 text-[20px] text-primary hover:text-secondary">
                   <FaGithub />
                 </Link>
               </div>
@@ -108,10 +114,10 @@ function Testimonials() {
               <div className="flex flex-row justify-center">
                 <p className="text-2xl mr-4">Full Stack Developer</p>
 
-                <Link to="/" className="mt-2 mr-2 text-[20px] hover:text-red-500">
+                <Link to="/" className="mt-2 mr-2 text-[20px] text-primary hover:text-secondary">
                   <FaLinkedin />
                 </Link>
-                <Link to="/" className="mt-2 text-[20px] hover:text-red-500 ">
+                <Link to="/" className="mt-2 text-[20px] text-primary hover:text-secondary">
                   <FaGithub />
                 </Link>
               </div>
