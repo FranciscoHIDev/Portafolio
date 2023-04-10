@@ -6,8 +6,10 @@ module.exports = {
       colors: {
         primary: "#ff335f",
         secondary: "#ff1447",
-        menu: "",
-        background: "#1d1d25"
+        menu: "#212b38",
+        background: "#222831",
+        cards: "#393E46"
+
       },
       animation: {
         typing: "typing 7s steps(20), blink .5s step-end infinite alternate",

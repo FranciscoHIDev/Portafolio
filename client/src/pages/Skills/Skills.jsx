@@ -13,7 +13,7 @@ import node from "../../assets/images/node.png";
 function Skills() {
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-[#1d1d25] py-20" id="skills">
+      <div className="flex flex-col bg-background py-20" id="skills">
         <div className="flex flex-col text-white items-center">
           <p className="pb-4 text-center text-4xl font-bold">Habilidades</p>
 

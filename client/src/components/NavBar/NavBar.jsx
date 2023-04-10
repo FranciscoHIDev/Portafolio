@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function NavBar() {
   return (
-    <div className=" flex bg-gray-700 w-full fixed">
+    <div className=" flex  w-full fixed bg-background shadow-md">
       <div className="container mx-auto m-2 ">
         <div className="sm:flex justify-around">
           <Link
@@ -14,52 +14,54 @@ function NavBar() {
             {"<Francisco Developer/>"}
           </Link>
           <ul className="text-white sm:self-center text-xl border-t sm:border-none">
-            <li className="sm:inline-block">
-              <Link to="home" className="p-3 hover:text-white cursor-pointer">
-                Home
-              </Link>
+            <li className="sm:inline-block ">
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="home" className="p-3">
+                  Home
+                </Link>
+              </button>
             </li>
             <li className="sm:inline-block">
-              <Link to="about" className="p-3 hover:text-white cursor-pointer">
-                Sobre mí
-              </Link>
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="about" className="p-3">
+                  Sobre mí
+                </Link>
+              </button>
             </li>
             <li className="sm:inline-block">
-              <Link to="skills" className="p-3 hover:text-white cursor-pointer">
-                Habilidades
-              </Link>
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="skills" className="p-3">
+                  Habilidades
+                </Link>
+              </button>
             </li>
             <li className="sm:inline-block">
-              <Link
-                to="projects"
-                className="p-3 hover:text-white cursor-pointer"
-              >
-                Proyectos
-              </Link>
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="projects" className="p-3">
+                  Proyectos
+                </Link>
+              </button>
             </li>
             <li className="sm:inline-block">
-              <Link
-                to="education"
-                className="p-3 hover:text-white cursor-pointer"
-              >
-                Formación
-              </Link>
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="education" className="p-3">
+                  Formación
+                </Link>
+              </button>
             </li>
             <li className="sm:inline-block">
-              <Link
-                to="testimonials"
-                className="p-3 hover:text-white cursor-pointer"
-              >
-                Testimonios
-              </Link>
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="testimonials" className="p-3">
+                  Testimonios
+                </Link>
+              </button>
             </li>
             <li className="sm:inline-block">
-              <Link
-                to="contact"
-                className="p-3 hover:text-white cursor-pointer"
-              >
-                Contacto
-              </Link>
+              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <Link to="contact" className="p-3">
+                  Contacto
+                </Link>
+              </button>
             </li>
           </ul>
         </div>

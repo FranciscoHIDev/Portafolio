@@ -1,7 +1,7 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
+import ButtonScroll from "../components/ButtonScroll/ButtonScroll";
 import {
   Home,
   About,
@@ -9,11 +9,11 @@ import {
   Education,
   Projects,
   Contact,
-  NotFound,
   Testimonials,
 } from "../pages/index";
 
 function RoutesApp() {
+  const [showButton, setShowButton] = useState(false);
   return (
     <>
       <NavBar />
@@ -24,7 +24,9 @@ function RoutesApp() {
       <Projects />
       <Testimonials />
       <Contact />
+      <ButtonScroll />
       <Footer />
+      
     </>
   );
 }

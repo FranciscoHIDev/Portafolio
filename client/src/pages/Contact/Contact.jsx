@@ -47,7 +47,7 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-[#1d1d25] py-20" id="contact">
+      <div className="flex flex-col bg-background py-20" id="contact">
         <div className="flex flex-col text-white items-center ">
           <div className="mb-5">
             <p className="text-center text-4xl font-bold">Contacto</p>
@@ -58,12 +58,12 @@ function Contact() {
               pronto posible.
             </p>
           </div>
-          <div className="flex bg-slate-700 px-20 pt-10 pb-10 rounded-xl  items-center">
+          <div className="flex bg-cards px-20 pt-10 pb-10 rounded-xl  items-center">
             <form ref={form} onSubmit={(e) => handleSubmit(e)}>
               <div className="flex flex-row ">
                 <div className="flex mb-3 mr-3">
                   <input
-                    className="rounded-md p-4 text-background  focus:outline-secondary"
+                    className="rounded-md p-4 text-background bg-[#EEEEEE]  focus:outline-secondary"
                     type="text"
                     name="name"
                     value={input.name}
@@ -75,7 +75,7 @@ function Contact() {
 
                 <div className="flex mb-3">
                   <input
-                    className="rounded-md p-4 text-background  focus:outline-secondary"
+                    className="rounded-md p-4 text-background bg-[#EEEEEE]  focus:outline-secondary"
                     type="email"
                     name="email"
                     value={input.email}
@@ -98,7 +98,7 @@ function Contact() {
 
               <div className="flex flex-col pb-5">
                 <textarea
-                  className="rounded-md pb-40 px-2 py-3 text-background  focus:outline-secondary"
+                  className="rounded-md pb-40 px-2 py-3 text-background bg-[#EEEEEE] focus:outline-secondary"
                   name="messaje"
                   value={input.messaje}
                   placeholder="Escribe aquí tu mensaje"
@@ -114,7 +114,7 @@ function Contact() {
 
               <div className="flex flex-col items-center">
                 <button
-                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 "
+                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 text-[#EEEEEE] "
                   type="submit"
                   disabled={
                     !input.name ||

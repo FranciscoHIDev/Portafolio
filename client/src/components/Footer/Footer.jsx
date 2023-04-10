@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="flex flex-row py-12 bg-background  justify-between">
-      <div className="flex text-white font-bold text-xl ml-20">
+      <div className="flex text-[#EEEEEE] font-bold text-xl ml-20">
         <p>Copyright © 2023 Coded with</p>
         <span>
           <MdFavorite className="text-2xl mx-2 mt-1 text-primary" />
