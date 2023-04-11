@@ -13,19 +13,19 @@ import node from "../../assets/images/node.png";
 function Skills() {
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-background py-20" id="skills">
+      <div className="flex flex-col bg-background pt-[110px]" id="skills">
         <div className="flex flex-col text-white items-center">
           <p className="pb-4 text-center text-4xl font-bold">Habilidades</p>
 
           <div className="flex flex-row text-white my-4 p-4 font-bold  animate-pulse">
             <div className=" border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center ">
               <img src={html} alt="logo" />
-              <p>HTML5</p>
+              <p>HTML</p>
             </div>
 
             <div className=" border-solid border-2 border-primary p-3 rounded-xl m-3 w-44   items-center text-center">
               <img src={css} alt="logo" />
-              <p>CSS3</p>
+              <p>CSS</p>
             </div>
             <div className=" border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center">
               <img src={js} alt="logo" />

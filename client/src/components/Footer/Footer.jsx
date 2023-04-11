@@ -1,10 +1,11 @@
 import React from "react";
-import { MdFavorite, MdEmail } from "react-icons/md";
+import { MdFavorite } from "react-icons/md";
 import {
   FaLinkedin,
   FaGithub,
   FaTwitterSquare,
   FaWhatsappSquare,
+  FaEnvelope
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -51,7 +52,7 @@ function Footer() {
           href="mailto:ihilario00@gmail.com"
           className="text-2xl text-primary hover:text-secondary"
         >
-          <MdEmail />
+          <FaEnvelope />
         </a>
       </div>
     </div>

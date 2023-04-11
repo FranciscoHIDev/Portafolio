@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <React.Fragment>
-      <div className=" flex flex-col bg-background py-20" id="about">
+      <div className=" flex flex-col bg-background pt-28" id="about">
         <div className="flex flex-col text-white pb-5">
           <p className="text-center text-4xl font-bold ">Sobre mí</p>
         </div>

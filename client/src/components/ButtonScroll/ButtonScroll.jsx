@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BiChevronUp } from "react-icons/bi";
+import "./ButtonScroll.css";
 
 function ButtonScroll() {
+  const [showButton, setShowButton] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
     <React.Fragment>
-      <div className="bg-background justify-end flex pr-6 ">
-        <button
-          onClick={handleClick}
-          className="  bg-primary w-10 h-10 flex justify-center items-center rounded-full "
-        >
-          <BiChevronUp className="text-[#EEEEEE] text-4xl" />
-        </button>
+      <div className=" flex relative">
+        {showButton && (
+          <button
+            onClick={handleClick}
+            className="  icon-position bg-primary rounded-full w-12 h-12 hover:bg-secondary animate-bounce"
+          >
+            <BiChevronUp className="text-white text-3xl text-center" />
+          </button>
+        )}
       </div>
     </React.Fragment>
   );

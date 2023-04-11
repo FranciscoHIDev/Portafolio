@@ -42,13 +42,7 @@ function NavBar() {
                 </Link>
               </button>
             </li>
-            <li className="sm:inline-block">
-              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
-                <Link to="education" className="p-3">
-                  Formación
-                </Link>
-              </button>
-            </li>
+
             <li className="sm:inline-block">
               <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
                 <Link to="testimonials" className="p-3">

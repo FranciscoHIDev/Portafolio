@@ -1,0 +1,12 @@
+
+  .icon-position {
+    display:flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    bottom: 120px;
+    right: 2rem;
+    z-index: 20;
+    
+  }
+ 

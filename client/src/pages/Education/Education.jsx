@@ -11,7 +11,7 @@ function Education() {
             <p className="text-center text-4xl font-bold">Formación</p>
           </div>
           <div className="flex flex-row">
-            <div className="bg-cards  p-3 rounded-xl m-3 w-44 items-center text-center">
+            <div className="bg-cards  p-3 rounded-xl m-3 w-80 items-center text-center">
               <img src={uia} alt="logo" />
               <h3>Universidad Istmo Americana</h3>
               <p>Licenciatura en Administración de Empresas</p>
