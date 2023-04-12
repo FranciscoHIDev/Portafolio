@@ -17,7 +17,7 @@ function NavBar() {
             <li className="sm:inline-block ">
               <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
                 <Link to="home" className="p-3">
-                  Home
+                  Inicio
                 </Link>
               </button>
             </li>

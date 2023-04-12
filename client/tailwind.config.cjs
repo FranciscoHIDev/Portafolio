@@ -12,7 +12,7 @@ module.exports = {
 
       },
       animation: {
-        typing: "typing 8s steps(20), blink .5s step-end infinite alternate",
+        typing: "typing 4s steps(20), blink .5s step-end infinite alternate",
         pulse: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;'
 
       },
