@@ -11,7 +11,10 @@ import {
 function Home() {
   return (
     <React.Fragment>
-      <div className="flex flex-row pt-20 bg-background" id="home">
+      <div
+        className="xl:flex xl:flex-row sm:flex sm:flex-col lg:flex lg:flex-row pt-20 bg-background"
+        id="home"
+      >
         <div className="flex flex-col fixed ml-10 mt-40 ">
           <a
             href="https://www.linkedin.com/in/isidoro-francisco/"
