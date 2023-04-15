@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { CgMenuGridR, CgClose } from "react-icons/cg";
+import { CgMenu, CgClose } from "react-icons/cg";
 
 function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -14,7 +14,7 @@ function NavBar() {
           {openMenu ? (
             <CgClose className="text-white text-3xl" />
           ) : (
-            <CgMenuGridR className="text-white text-3xl" />
+            <CgMenu className="text-white text-3xl" />
           )}
         </div>
         <div className="sm:flex justify-around md:items-center">
