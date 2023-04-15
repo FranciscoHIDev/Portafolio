@@ -12,10 +12,10 @@ function Home() {
   return (
     <React.Fragment>
       <div
-        className="xl:flex xl:flex-row sm:flex sm:flex-col lg:flex lg:flex-row pt-20 bg-background"
+        className="flex md:flex-row flex-col-reverse   pt-20 bg-background mx-auto items-center"
         id="home"
       >
-        <div className="flex flex-col fixed ml-10 mt-40 ">
+        <div className="flex flex-col md:fixed md:ml-10 md:mt-40">
           <a
             href="https://www.linkedin.com/in/isidoro-francisco/"
             target="_blank"
@@ -51,10 +51,10 @@ function Home() {
             <FaEnvelope />
           </a>
         </div>
-        <div className="flex flex-col ml-[150px] text-white mt-40 mr-20 w-[40%]">
+        <div className="flex flex-col md:ml-[150px] text-white md:mt-40 md:mr-20 md:w-[40%] mx-10 mt-10 items-center md:items-start">
           <p className="text-2xl mb-3 ">¡Hola! Bienvedin@</p>
           <p className="text-3xl mb-3"> Soy Isidoro Francisco Hilario</p>
-          <h1 className="text-4xl text-secondary font-bold block animate-typing overflow-hidden whitespace-nowrap">
+          <h1 className="text-3xl md:text-4xl text-secondary font-bold block animate-typing overflow-hidden whitespace-nowrap">
             FULL STACK DEVELOPER
           </h1>
 
@@ -73,7 +73,7 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="md:flex content-center mx-8 md:mx-[-32px]">
           <img
             src="https://res.cloudinary.com/duaysiozi/image/upload/v1681150534/pick-Linux-removebg-preview_1_dlayfx.png"
             alt="image"
