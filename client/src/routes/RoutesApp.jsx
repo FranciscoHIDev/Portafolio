@@ -5,26 +5,24 @@ import ButtonScroll from "../components/ButtonScroll/ButtonScroll";
 import {
   Home,
   About,
-  Skills,  
+  Skills,
   Projects,
   Contact,
   Testimonials,
 } from "../pages/index";
 
 function RoutesApp() {
-  
   return (
     <>
       <NavBar />
       <Home />
-      <About />
+      {/* <About />
       <Skills />      
       <Projects />
       <Testimonials />
       <Contact />
       <ButtonScroll />
-      <Footer />
-      
+      <Footer /> */}
     </>
   );
 }
