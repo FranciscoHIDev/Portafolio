@@ -7,10 +7,10 @@ function NavBar() {
 
   return (
     <div className=" shadow-md w-full fixed top-0 left-0   ">
-      <div className="container mx-auto m-3 ">
+      <div className="container mx-auto m-4 md:m-3">
         <div
           onClick={() => setOpenMenu(!openMenu)}
-          className=" absolute right-5 top-3  cursor-pointer md:hidden"
+          className=" absolute right-5 top-5  cursor-pointer md:hidden"
         >
           {openMenu ? (
             <CgClose className="text-white text-3xl" />
@@ -27,8 +27,8 @@ function NavBar() {
           </Link>
 
           <ul
-            className={` md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 text-white sm:self-center text-xl  sm:border-none ${
-              !openMenu ? "top-10 hidden" : "top-[51px]"
+            className={` md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 text-white sm:self-center text-xl  sm:border-none bg-cards ${
+              !openMenu ? "top-10 hidden" : "top-[68px]"
             }`}
           >
             <li className="sm:inline-block ">

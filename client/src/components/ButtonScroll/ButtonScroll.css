@@ -4,9 +4,8 @@
     position: fixed;
     align-items: center;
     justify-content: center;
-    bottom: 120px;
+    bottom: 70px;
     right: 2rem;
-    z-index: 20;
-    
+    z-index: 20;    
   }
  
