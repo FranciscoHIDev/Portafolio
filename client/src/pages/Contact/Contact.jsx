@@ -67,12 +67,12 @@ function Contact() {
               pronto posible.
             </p>
           </div>
-          <div className="flex bg-cards md:px-20 md:pt-10 md:pb-10 py-6 px-4 rounded-xl  items-center">
+          <div className="flex bg-cards px-20 pt-10 md:pb-10 py-6 rounded-xl  items-center">
             <form ref={form} onSubmit={(e) => sendEmail(e)}>
-              <div className="flex flex-row ">
-                <div className="flex mb-3 mr-3">
+              <div className="flex md:flex-row flex-col items-center ">
+                <div className="flex mb-3 md:mr-3">
                   <input
-                    className="rounded-md md:p-4 p-2 text-background bg-[#EEEEEE]  focus:outline-secondary"
+                    className="rounded-md md:p-4  py-4 px-8 text-background bg-[#EEEEEE]  focus:outline-secondary"
                     type="text"
                     name="user_name"
                     value={input.user_name}
@@ -84,7 +84,7 @@ function Contact() {
 
                 <div className="flex mb-3">
                   <input
-                    className="rounded-md p-4 text-background bg-[#EEEEEE]  focus:outline-secondary"
+                    className="rounded-md md:p-4  py-4 px-8 text-background bg-[#EEEEEE]  focus:outline-secondary"
                     type="email"
                     name="user_email"
                     value={input.user_email}
@@ -107,7 +107,7 @@ function Contact() {
 
               <div className="flex flex-col pb-5">
                 <textarea
-                  className="rounded-md pb-40 px-2 py-3 text-background bg-[#EEEEEE] focus:outline-secondary"
+                  className="rounded-md pb-40 md:px-2 py-3 px-8 text-background bg-[#EEEEEE] focus:outline-secondary"
                   name="message"
                   value={input.message}
                   placeholder="Escribe aquí tu mensaje"
