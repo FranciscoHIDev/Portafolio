@@ -16,8 +16,8 @@ function RoutesApp() {
     <>
       <NavBar />
       <Home />
-      {/* <About />
-      <Skills />      
+      <About />
+      {/*<Skills />      
       <Projects />
       <Testimonials />
       <Contact />*/}

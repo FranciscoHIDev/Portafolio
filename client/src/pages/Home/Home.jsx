@@ -15,7 +15,7 @@ function Home() {
         className="flex md:flex-row flex-col-reverse   pt-20 bg-background mx-auto items-center"
         id="home"
       >
-        <div className="flex flex-col md:fixed md:ml-10 md:mt-40">
+        {/* <div className="flex flex-col md:fixed md:ml-10 md:mt-40">
           <a
             href="https://www.linkedin.com/in/isidoro-francisco/"
             target="_blank"
@@ -50,7 +50,7 @@ function Home() {
           >
             <FaEnvelope />
           </a>
-        </div>
+        </div> */}
         <div className="flex flex-col md:ml-[150px] text-white md:mt-40 md:mr-20 md:w-[40%] mx-10 mt-10 items-center md:items-start">
           <p className="text-2xl mb-3 ">¡Hola! Bienvedin@</p>
           <p className="text-3xl mb-3"> Soy Isidoro Francisco</p>
