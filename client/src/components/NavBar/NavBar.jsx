@@ -10,7 +10,7 @@ function NavBar() {
       <div className="container mx-auto m-4 md:m-3">
         <div
           onClick={() => setOpenMenu(!openMenu)}
-          className=" absolute right-5 top-4  cursor-pointer md:hidden"
+          className=" absolute right-8 top-4  cursor-pointer md:hidden"
         >
           {openMenu ? (
             <CgClose className="text-white text-4xl" />

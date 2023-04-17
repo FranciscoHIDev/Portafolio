@@ -67,7 +67,7 @@ function Contact() {
               pronto posible.
             </p>
           </div>
-          <div className="flex bg-cards px-20 pt-10 md:pb-10 py-6 rounded-xl  items-center">
+          <div className="flex bg-cards md:px-20 md:pt-10 md:pb-10 py-8 px-10 rounded-xl  items-center">
             <form ref={form} onSubmit={(e) => sendEmail(e)}>
               <div className="flex md:flex-row flex-col items-center ">
                 <div className="flex mb-3 md:mr-3">
