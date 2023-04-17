@@ -17,10 +17,10 @@ function RoutesApp() {
       <NavBar />
       <Home />
       <About />
-      {/*<Skills />      
+      {/*<Skills />
       <Projects />
-      <Testimonials />
-      <Contact />*/}
+      <Testimonials />*/}
+      <Contact />
       <ButtonScroll />
       <Footer />
     </>

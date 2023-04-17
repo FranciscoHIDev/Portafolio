@@ -56,23 +56,23 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-background py-28" id="contact">
+      <div className="flex flex-col bg-background md:py-28 py-8" id="contact">
         <div className="flex flex-col text-white items-center ">
           <div className="mb-5">
             <p className="text-center text-4xl font-bold">Contacto</p>
           </div>
-          <div className="pb-10">
-            <p className="font-bold  text-lg">
+          <div className="pb-10 md:mx-0 mx-20">
+            <p className="font-bold  md:text-lg text-justify">
               Completa el siguiente formulario y me pondre en contacto lo más
               pronto posible.
             </p>
           </div>
-          <div className="flex bg-cards px-20 pt-10 pb-10 rounded-xl  items-center">
+          <div className="flex bg-cards md:px-20 md:pt-10 md:pb-10 py-6 px-4 rounded-xl  items-center">
             <form ref={form} onSubmit={(e) => sendEmail(e)}>
               <div className="flex flex-row ">
                 <div className="flex mb-3 mr-3">
                   <input
-                    className="rounded-md p-4 text-background bg-[#EEEEEE]  focus:outline-secondary"
+                    className="rounded-md md:p-4 p-2 text-background bg-[#EEEEEE]  focus:outline-secondary"
                     type="text"
                     name="user_name"
                     value={input.user_name}
