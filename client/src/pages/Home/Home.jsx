@@ -58,7 +58,7 @@ function Home() {
             FULL STACK DEVELOPER
           </h1>
 
-          <div className="flex py-5 text-white">
+          <div className="flex py-2 text-white">
             <Link
               to="#cv"
               className="   m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary cursor-pointer"
