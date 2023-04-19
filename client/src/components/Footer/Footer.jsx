@@ -51,13 +51,13 @@ function Footer() {
           </a>
         </div>
         <div className="flex  text-[#EEEEEE] font-bold text-xl ">
-          <p className="flex text-[16px] md:text-2xl">
+          <p className="flex text-[13px] md:text-2xl">
             Copyright © 2023 Coded with
           </p>
           <span>
             <MdFavorite className="flex text-2xl md:text-3xl  mx-1 md:mt-1 text-primary" />
           </span>
-          <p className="flex text-[16px] md:text-2xl">by Isidoro Francisco</p>
+          <p className="flex text-[13px] md:text-2xl">by Isidoro Francisco</p>
         </div>
       </div>
       {/* -------------- Footer---------------- */}

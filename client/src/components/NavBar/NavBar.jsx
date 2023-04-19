@@ -6,7 +6,7 @@ function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className=" shadow-md w-full fixed top-0 left-0   ">
+    <div className=" shadow-md w-full fixed top-0 left-0  bg-menu ">
       <div className="container mx-auto m-4 md:m-3">
         <div
           onClick={() => setOpenMenu(!openMenu)}
@@ -27,7 +27,7 @@ function NavBar() {
           </Link>
 
           <ul
-            className={` md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 text-white sm:self-center text-xl  sm:border-none bg-cards ${
+            className={` md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 text-white sm:self-center text-xl  sm:border-none bg-menu ${
               !openMenu ? "top-10 hidden" : "top-[68px]"
             }`}
           >
