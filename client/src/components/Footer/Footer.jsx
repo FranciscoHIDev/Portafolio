@@ -55,7 +55,7 @@ function Footer() {
             Copyright © 2023 Coded with
           </p>
           <span>
-            <MdFavorite className="flex text-2xl md:text-3xl  mx-1 md:mt-1 text-primary" />
+            <MdFavorite className="flex text-[18px] mt-[5px] md:text-3xl  mx-1 md:mt-1 text-primary" />
           </span>
           <p className="flex text-[13px] md:text-2xl">by Isidoro Francisco</p>
         </div>
