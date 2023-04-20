@@ -6,9 +6,9 @@ module.exports = {
       colors: {
         primary: "#ff335f",
         secondary: "#ff1447",
-        menu: "#272640",
-        background: "#312244",
-        cards: "#006466"
+        menu: "#212224",
+        background: "#1c1c21",
+        cards: "#26262c"
 
       },
       animation: {
