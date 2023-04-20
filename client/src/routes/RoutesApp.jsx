@@ -17,9 +17,9 @@ function RoutesApp() {
       <NavBar />
       <Home />
       <About />
-      {/*<Skills />
+      {/*<Skills />*/}
       <Projects />
-      <Testimonials />*/}
+      {/* <Testimonials /> */}
       <Contact />
       <ButtonScroll />
       <Footer />
