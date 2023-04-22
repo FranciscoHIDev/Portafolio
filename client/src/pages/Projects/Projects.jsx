@@ -15,7 +15,7 @@ function Projects() {
             <div className="flex flex-col-reverse md:flex-row  bg-cards  py-14 rounded-2xl  md:mb-20 mb-10">
               <div className="flex flex-col md:w-[50%] md:mx-10  rounded-xl  justify-center">
                 <p className="text-2xl mb-4 mt-2 text-center">CarMania App</p>
-                <p className=" md:text-[19px] text-justify">
+                <p className=" md:text-[19px] text-justify md:px-0 px-2">
                   Carmania es una aplicacion e-commerce sobre venta de autos
                   nuevos y usados, donde el usuario puede navegar de manera
                   amigable utilizar nuestro formulario de contacto, pude agregar
@@ -23,7 +23,7 @@ function Projects() {
                   o buscar autos por marcas, cuenta con un perfil de usuario, un
                   dashboard para el administrador y pasarela de MercadoPago.
                 </p>
-                <div className="flex flex-row text-secondary text-[14px] md:text-[18px] font-bold justify-between mb-4 mt-4">
+                <div className="flex flex-row text-secondary text-[14px] md:text-[18px] font-bold justify-between mb-4 mt-4 md:px-0 px-2">
                   <p>JavaScript</p>
                   <p>React</p>
                   <p>Redux</p>
@@ -77,12 +77,12 @@ function Projects() {
               </div>
               <div className="flex flex-col md:w-[50%] md:mx-10 rounded-xl  justify-center">
                 <p className="text-2xl mb-4 mt-2 text-center">Dog App</p>
-                <p className="m-4 md:text-[19px] text-justify">
+                <p className="m-4 md:text-[19px] text-justify md:px-0 px-2">
                   Crear un SPA sobre recetas de comidas utilizado una API
                   externa, para el Front utilice ReactJs, Redux y Styled
                   Components. Para BackEnd use NodeJS, Express, PostgreSQL.
                 </p>
-                <div className="flex flex-row text-secondary md:text-[19px] text-[14px] font-bold justify-between mb-4 mt-4">
+                <div className="flex flex-row text-secondary md:text-[19px] text-[14px] font-bold justify-between mb-4 mt-4 md:px-0 px-2">
                   <p>JavaScript</p>
                   <p>React</p>
                   <p>Redux</p>
