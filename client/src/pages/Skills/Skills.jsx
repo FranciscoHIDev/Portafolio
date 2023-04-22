@@ -18,7 +18,7 @@ function Skills() {
           <p className="pb-4 text-center text-4xl font-bold">Habilidades</p>
 
           <div className="flex md:flex-row flex-col text-white my-4 p-4 font-bold  animate-pulse">
-            <div className=" border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center ">
+            <div className=" border-solid border-2 border-primary p-3 rounded-xl m-3 w-44 items-center text-center  ">
               <img src={html} alt="logo" />
               <p>HTML</p>
             </div>
