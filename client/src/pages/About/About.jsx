@@ -3,12 +3,12 @@ import React from "react";
 function About() {
   return (
     <React.Fragment>
-      <div className=" flex flex-col bg-cards  pt-12" id="about">
-        <div className="flex flex-col text-white pb-5">
+      <div className=" flex flex-col bg-cards  pt-8" id="about">
+        <div className="flex flex-col text-white ">
           <p className="text-center text-4xl font-bold ">Sobre mí</p>
         </div>
         <div className="flex  items-center">
-          <div className=" md:my-4 my-8 p-4 md:mx-28  mx-8">
+          <div className=" md:mt-3 my-5 p-4 md:mx-28  mx-8">
             <p className="md:text-2xl text-justify text-[#EEEEEE]">
               Soy Licenciado en Administración de Empresas y Full Stack
               Developer, soy una persona con competencias enfocadas al trabajo
