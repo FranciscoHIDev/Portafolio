@@ -31,13 +31,13 @@ function NavBar() {
               !openMenu ? "top-10 hidden" : "top-[68px]"
             }`}
           >
-            <li className="sm:inline-block ">
+            {/* <li className="sm:inline-block ">
               <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
                 <Link to="home" className="p-3">
                   Inicio
                 </Link>
               </button>
-            </li>
+            </li> */}
             <li className="sm:inline-block">
               <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
                 <Link to="about" className="p-3">
