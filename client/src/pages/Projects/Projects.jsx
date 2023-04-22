@@ -7,13 +7,13 @@ function Projects() {
   return (
     <React.Fragment>
       <div className="flex flex-col bg-background pt-28" id="projects">
-        <div className="flex flex-col text-white items-center md:mx-28 mx-40">
+        <div className="flex flex-col text-white items-center md:px-28 px-48 ">
           <div className="mb-10">
             <p className="text-center text-4xl font-bold">Proyectos</p>
           </div>
           <div className="flex flex-col  items-center">
             <div className="flex flex-col-reverse md:flex-row  bg-cards  py-14 rounded-2xl  md:mb-20 mb-10">
-              <div className="flex flex-col md:w-[50%] mx-10  rounded-xl  justify-center">
+              <div className="flex flex-col md:w-[50%] md:mx-10  rounded-xl  justify-center">
                 <p className="text-2xl mb-4 mt-2 text-center">CarMania App</p>
                 <p className=" md:text-[19px] text-justify">
                   Carmania es una aplicacion e-commerce sobre venta de autos
@@ -75,7 +75,7 @@ function Projects() {
                   alt="pi-henry"
                 />
               </div>
-              <div className="flex flex-col md:w-[50%] mx-10 rounded-xl  justify-center">
+              <div className="flex flex-col md:w-[50%] md:mx-10 rounded-xl  justify-center">
                 <p className="text-2xl mb-4 mt-2 text-center">Dog App</p>
                 <p className="m-4 md:text-[19px] text-justify">
                   Crear un SPA sobre recetas de comidas utilizado una API
