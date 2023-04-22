@@ -13,7 +13,7 @@ function Footer() {
   return (
     <>
       {/* -------------- Footer---------------- */}
-      <div className="md:flex py-12 md:bg-background  md:justify-between hidden ">
+      <div className="lg:flex py-12 lg:bg-background  lg:justify-between hidden ">
         <div className="flex  text-[#EEEEEE] font-bold text-xl ml-20 ">
           <p className="">Copyright © 2023 Coded with</p>
           <span>

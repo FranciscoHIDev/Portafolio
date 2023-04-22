@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HTML",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/html_qhizvu.png"
+  },
+  {
+    "name": "CSS",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/css_uz71td.png"
+  },
+  {
+    "name": "JavaScript",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/js_xgwc0e.png"
+  },
+  {
+    "name": "Tailwind CSS",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/icon-tailwind_usr58m.png"
+  },
+  {
+    "name": "NodeJs",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/node_vgpuhe.png"
+  },
+  {
+    "name": "React",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/react_jwbxxk.png"
+  },
+  {
+    "name": "Redux",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/redux_yz4kbo.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/postgre_pasea4.png"
+  },
+  {
+    "name": "Git",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/git_p6wde5.png"
+  },
+  {
+    "name": "GitHub",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1682193518/github_usiykj.png"
+  }
+]

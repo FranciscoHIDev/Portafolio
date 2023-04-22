@@ -19,7 +19,7 @@ function RoutesApp() {
       <About />
       <Skills />
       <Projects />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Contact />
       <ButtonScroll />
       <Footer />
