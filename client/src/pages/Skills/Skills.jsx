@@ -9,7 +9,7 @@ function Skills() {
       <div className="flex flex-col bg-background pt-28" id="skills">
         <div className="flex flex-col text-white items-center">
           <p className="pb-4 text-center text-4xl font-bold">Habilidades</p>
-          <div className="flex mb-[10px] mt-5 flex-wrap md:mx-28 mx-10 justify-center ">
+          <div className="flex mb-[10px] mt-5 flex-wrap  md:mx-28 mx-10 justify-center ">
             {tech?.map((t) => {
               return (
                 <SkillsCard
