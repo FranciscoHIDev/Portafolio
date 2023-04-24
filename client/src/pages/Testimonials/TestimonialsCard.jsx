@@ -11,13 +11,13 @@ function TestimonialsCard({
 }) {
   return (
     <>
-      <div className="flex flex-col bg-cards   rounded-xl w-[450px] p-6 items-center m-3 p-3">
+      <div className="flex flex-col bg-cards   rounded-xl lg:w-[450px] w-[350px] p-6 items-center m-3 ">
         <img
           className="w-20 h-20 rounded-full items-center"
           src={image}
           alt="image"
         />
-        <p className="mb-6 mt-5 text-justify">{comment}</p>
+        <p className="mb-6 mt-5 text-justify px-20">{comment}</p>
         <p className="text-3xl">{name}</p>
         <div className="flex flex-row justify-center">
           <p className="text-2xl mr-4">{position}</p>

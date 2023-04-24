@@ -7,10 +7,10 @@ function Testimonials() {
   return (
     <React.Fragment>
       <div className="flex flex-col bg-background pt-28" id="testimonials">
-        <div className="flex flex-col text-white items-center">
+        <div className="flex flex-col text-white items-center ">
           <p className="pb-4 text-center text-4xl font-bold">Testimonios</p>
 
-          <div className="flex mb-[10px] mt-5 flex-wrap mx-28 justify-center ">
+          <div className="flex mb-[10px] mt-5 flex-wrap justify-center">
             {testimonial?.map((t) => {
               return (
                 <TestimonialsCard
