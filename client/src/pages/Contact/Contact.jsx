@@ -61,7 +61,7 @@ function Contact() {
           <div className="mb-5">
             <p className="text-center text-4xl font-bold">Contacto</p>
           </div>
-          <div className="pb-10 md:mx-0 mx-20">
+          <div className="pb-10 md:mx-0 mx-10">
             <p className="md:font-bold  md:text-lg text-justify">
               Completa el siguiente formulario y me pondre en contacto lo más
               pronto posible.
