@@ -15,7 +15,7 @@ function Home() {
         className="flex md:flex-row flex-col-reverse   pt-20 pb-10 bg-background mx-auto items-center md:justify-around"
         id="about"
       >
-        <div className="xl:flex xl:flex-col xl:fixed xl:left-8 xl:mt-28 hidden">
+        <div className="lg:flex lg:flex-col lg:fixed lg:left-8 lg:mt-28 hidden">
           <a
             href="https://www.linkedin.com/in/isidoro-francisco/"
             target="_blank"
@@ -51,7 +51,7 @@ function Home() {
             <FaEnvelope />
           </a>
         </div>
-        <div className="flex flex-col md:mx-0 text-white md:mt-28 md:mr-0  mx-10 mt-10 items-center md:items-center md:w-[30%]">
+        <div className="flex flex-col lg:mx-0 text-white lg:mt-28 lg:mr-0  mx-10 mt-10 items-center lg:items-center lg:w-[50%]">
           <p className="text-2xl mb-3 ">¡Hola! Bienvedin@</p>
           <p className="text-3xl mb-3"> Soy Isidoro Francisco</p>
           <h1 className="text-3xl md:text-4xl text-secondary font-bold block animate-typing overflow-hidden whitespace-nowrap">
@@ -73,7 +73,7 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div className="md:flex content-center mx-8 md:ml-0 mt-20 ">
+        <div className="lg:flex content-center mx-8 lg:ml-0 mt-20 ">
           <img
             className="rounded-full md:w-[250px] w-[250px] border-solid border-2 border-primary"
             src="https://res.cloudinary.com/duaysiozi/image/upload/v1681013244/105096858_b4josv.png"
