@@ -27,7 +27,7 @@ function NavBar() {
           </Link>
 
           <ul
-            className={` md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 text-white sm:self-center text-xl  sm:border-none bg-menu ${
+            className={` lg:flex lg:items-center lg:pb-0 absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 text-white sm:self-center text-xl  sm:border-none bg-menu ${
               !openMenu ? "top-10 hidden" : "top-[68px]"
             }`}
           >
