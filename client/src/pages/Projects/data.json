@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CarMania App",
+    "item": "Carmania es una aplicacion e-commerce sobre venta de autos nuevos y usados, donde el usuario puede navegar de manera amigable utilizar nuestro formulario de contacto, pude agregar a favoritos, utilizar filtros de precios, categorias, modelos o buscar autos por marcas, cuenta con un perfil de usuario, un dashboard para el administrador y pasarela de MercadoPago.",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1680930807/carmaniajpg_gm1prf.jpg",
+    "tech": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "NodeJs",
+      "Express",
+      "MongoDB",
+      "Tailwind"
+    ],
+    "demo": "https://carmania-henry.netlify.app/",
+    "repo": "https://github.com/FranciscoHIDev/PF-HENRY/tree/main"
+  },
+  {
+    "title": "Food App",
+    "item": "Crear un SPA sobre recetas de comidas utilizado una API externa, para el Front utilice ReactJs, Redux y Styled Components. Para BackEnd use NodeJS, Express, PostgreSQL.",
+    "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1680930054/PI-henry2_uewhn0.png",
+    "tech": ["JavaScript", "React", "Redux", "NodeJs", "Express", "PostgreSQL"],
+    "demo": "https://henry-pi-food.netlify.app/",
+    "repo": "https://github.com/FranciscoHIDev/PI-Food"
+  }
+]

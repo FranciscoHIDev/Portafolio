@@ -2,12 +2,32 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { BsEyeFill } from "react-icons/bs";
 import { TbWorldWww } from "react-icons/tb";
+import data from "./data.json";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
+  const project = data;
   return (
     <React.Fragment>
       <div className="flex flex-col bg-background pt-28" id="projects">
-        <div className="flex flex-col text-white items-center md:px-28 px-48 ">
+        <p className="text-center text-4xl font-bold">Proyectos</p>
+
+        <div className="flex mb-[10px] mt-5 flex-col justify-center px-20">
+          {project?.map((t) => {
+            return (
+              <ProjectCard
+                key={crypto.randomUUID()}
+                title={t.title}
+                item={t.item}
+                image={t.image}
+                tech={t.tech}
+                demo={t.demo}
+                repo={t.repo}
+              />
+            );
+          })}
+        </div>
+        {/* <div className="flex flex-col text-white items-center md:px-28 px-48 ">
           <div className="mb-10">
             <p className="text-center text-4xl font-bold">Proyectos</p>
           </div>
@@ -119,7 +139,7 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );
