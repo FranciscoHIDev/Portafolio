@@ -123,7 +123,7 @@ function Contact() {
 
               <div className="flex flex-col items-center">
                 <button
-                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 text-[#EEEEEE] "
+                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 text-black "
                   type="submit"
                   value="Send"
                   disabled={

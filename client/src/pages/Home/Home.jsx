@@ -12,7 +12,7 @@ function Home() {
   return (
     <React.Fragment>
       <div
-        className="flex md:flex-row flex-col-reverse   pt-20 pb-10 bg-background mx-auto items-center md:justify-around"
+        className="flex md:flex-row flex-col-reverse   pt-20 pb-10 bg-[#000c1f] mx-auto items-center md:justify-around"
         id="about"
       >
         <div className="lg:flex lg:flex-col lg:fixed lg:left-8 lg:mt-28 hidden">
@@ -51,23 +51,23 @@ function Home() {
             <FaEnvelope />
           </a>
         </div>
-        <div className="flex flex-col lg:mx-0 text-white lg:mt-28 lg:mr-0  mx-10 mt-10 items-center lg:items-center lg:w-[50%]">
+        <div className="flex flex-col lg:mx-0 text-white lg:mt-28 lg:mr-0  mx-10 mt-10 items-center lg:items-start lg:w-[50%]">
           <p className="text-2xl mb-3 ">¡Hola! Bienvedin@</p>
           <p className="text-3xl mb-3"> Soy Isidoro Francisco</p>
-          <h1 className="text-3xl md:text-4xl text-secondary font-bold block animate-typing overflow-hidden whitespace-nowrap">
+          <h1 className="text-3xl md:text-4xl text-primary font-bold block animate-typing overflow-hidden whitespace-nowrap">
             FULL STACK DEVELOPER
           </h1>
 
           <div className="flex py-2 text-white">
             <Link
               to="#cv"
-              className="   m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary cursor-pointer"
+              className="   m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary text-black cursor-pointer"
             >
               DESCARGAR CV
             </Link>
             <Link
               to="contact"
-              className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  cursor-pointer"
+              className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  text-black  cursor-pointer"
             >
               CONTACTO
             </Link>

@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#ff335f",
-        secondary: "#ff1447",
-        menu: "#212224",
-        background: "#1c1c21",
-        cards: "#26262c"
+        primary: "#ff1447",
+        secondary: "#ffffff",
+        menu: "#141d2b",
+        background: "#141d2b",
+        cards: "#0a1424",
+        colortext: "#a4b1cd"
 
       },
       animation: {

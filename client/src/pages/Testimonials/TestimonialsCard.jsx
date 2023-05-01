@@ -16,7 +16,7 @@ function TestimonialsCard({
           src={image}
           alt="image"
         />
-        <p className="mb-6 mt-5 text-justify px-2">{comment}</p>
+        <p className="mb-6 mt-5 text-justify px-2 text-colortext">{comment}</p>
         <p className="text-3xl">{name}</p>
         <div className="flex flex-row justify-center">
           <p className="text-2xl mr-4">{position}</p>
