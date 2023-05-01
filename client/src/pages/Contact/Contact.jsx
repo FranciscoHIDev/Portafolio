@@ -56,7 +56,7 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-background md:py-28 py-8" id="contact">
+      <div className="flex flex-col bg-background lg:py-28 pt-20 pb-8" id="contact">
         <div className="flex flex-col text-white items-center ">
           <div className="mb-5">
             <p className="text-center text-4xl font-bold">Contacto</p>

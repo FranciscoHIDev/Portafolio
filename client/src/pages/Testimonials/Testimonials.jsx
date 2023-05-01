@@ -6,7 +6,7 @@ function Testimonials() {
   const testimonial = data;
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-background pt-28" id="testimonials">
+      <div className="flex flex-col bg-background lg:pt-28 pt-20" id="testimonials">
         <div className="flex flex-col text-white items-center ">
           <p className="pb-4 text-center text-4xl font-bold">Testimonios</p>
 

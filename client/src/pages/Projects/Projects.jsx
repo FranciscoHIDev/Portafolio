@@ -9,7 +9,7 @@ function Projects() {
   const project = data;
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-background pt-28" id="projects">
+      <div className="flex flex-col bg-background lg:pt-28 pt-20" id="projects">
         <p className="text-center text-4xl font-bold text-white">Proyectos</p>
 
         <div className="flex mb-[10px] mt-5 flex-col justify-center md:px-20 px-5">
