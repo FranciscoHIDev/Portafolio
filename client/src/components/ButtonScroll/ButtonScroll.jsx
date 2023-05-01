@@ -23,9 +23,9 @@ function ButtonScroll() {
         {showButton && (
           <button
             onClick={handleClick}
-            className="  icon-position  bg-primary rounded-full w-12 h-12 hover:bg-secondary animate-bounce"
+            className="  icon-position  bg-primary rounded-full w-12 h-12  animate-bounce"
           >
-            <BiChevronUp className="text-white text-3xl text-center" />
+            <BiChevronUp className="text-black text-3xl text-center" />
           </button>
         )}
       </div>
