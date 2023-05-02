@@ -27,34 +27,27 @@ function NavBar() {
           </Link>
 
           <div
-            className={` lg:flex lg:items-center lg:pb-0 absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 text-white sm:self-center text-xl  sm:border-none bg-menu ${
+            className={` lg:flex lg:items-center lg:pb-0 lg:pt-0 absolute lg:static lg:z-auto z-[-1] left-0 w-full  lg:w-auto lg:pl-0 pb-5 pt-5 text-white self-center text-xl   bg-cards md:bg-menu  ${
               !openMenu ? "top-10 hidden" : "top-[68px]"
             }`}
           >
             <ul>
-              {/* <li className="sm:inline-block ">
-              <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
-                <Link to="home" className="p-3">
-                  Inicio
-                </Link>
-              </button>
-            </li> */}
               <li className="sm:inline-block">
-                <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px] ">
+                <button className=" focus:text-primary hover:text-primary p-[5px]">
                   <Link to="about" className="p-3">
                     Sobre mí
                   </Link>
                 </button>
               </li>
               <li className="sm:inline-block">
-                <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <button className=" focus:text-primary hover:text-primary p-[5px] ">
                   <Link to="skills" className="p-3">
                     Habilidades
                   </Link>
                 </button>
               </li>
               <li className="sm:inline-block">
-                <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <button className=" focus:text-primary hover:text-primary p-[5px] ">
                   <Link to="projects" className="p-3">
                     Proyectos
                   </Link>
@@ -62,14 +55,14 @@ function NavBar() {
               </li>
 
               <li className="sm:inline-block">
-                <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <button className="  focus:text-primary hover:text-primary p-[5px] ">
                   <Link to="testimonials" className="p-3">
                     Testimonios
                   </Link>
                 </button>
               </li>
               <li className="sm:inline-block">
-                <button className=" focus:bg-primary rounded-lg hover:bg-primary p-[5px]">
+                <button className=" focus:text-primary hover:text-primary p-[5px] ">
                   <Link to="contact" className="p-3">
                     Contacto
                   </Link>

@@ -17,7 +17,7 @@ function ProjectCard({ title, item, image, tech, demo, repo }) {
           </div>
           <div className="flex flex-row justify-center">
             <div className="mr-2">
-              <button className="flex rounded-lg bg-primary p-2 hover:bg-secondary items-center">
+              <button className="flex rounded-lg bg-primary p-2 hover:bg-secondary items-center hover:text-black text-white">
                 <TbWorldWww className=" md:text-[20px] mr-[5px]" />
                 <a href={demo} target="_blank" className="md:text-[20px]">
                   DEMO
@@ -25,7 +25,7 @@ function ProjectCard({ title, item, image, tech, demo, repo }) {
               </button>
             </div>
             <div>
-              <button className="flex rounded-lg bg-primary p-2 hover:bg-secondary items-center">
+              <button className="flex rounded-lg bg-primary p-2 hover:bg-secondary items-center hover:text-black text-white">
                 <FaGithub className="md:text-[20px] mr-[5px]" />
                 <a href={repo} target="_blank" className="md:text-[20px]">
                   REPO

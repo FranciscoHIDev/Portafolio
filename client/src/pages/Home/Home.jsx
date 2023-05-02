@@ -61,13 +61,13 @@ function Home() {
           <div className="flex py-2 text-white">
             <Link
               to="#cv"
-              className="   m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary text-black cursor-pointer"
+              className="   m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary hover:text-black cursor-pointer"
             >
               DESCARGAR CV
             </Link>
             <Link
               to="contact"
-              className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  text-black  cursor-pointer"
+              className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  hover:text-black  cursor-pointer"
             >
               CONTACTO
             </Link>

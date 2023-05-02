@@ -3,6 +3,7 @@ import { useState } from "react";
 import validate from "./validate.js";
 import emailjs, { init } from "@emailjs/browser";
 import Swal from "sweetalert2";
+import { AiOutlineLine } from "react-icons/ai";
 
 function Contact() {
   const form = useRef();
@@ -56,10 +57,14 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <div className="flex flex-col bg-background lg:py-28 pt-20 pb-8" id="contact">
+      <div
+        className="flex flex-col bg-background lg:py-28 pt-20 pb-8"
+        id="contact"
+      >
         <div className="flex flex-col text-white items-center ">
-          <div className="mb-5">
+          <div className="flex flex-col mb-5 items-center">
             <p className="text-center text-4xl font-bold">Contacto</p>
+            <AiOutlineLine className="text-primary text-4xl" />
           </div>
           <div className="pb-10 md:mx-0 mx-10">
             <p className="md:font-bold  md:text-lg text-justify">
@@ -123,7 +128,7 @@ function Contact() {
 
               <div className="flex flex-col items-center">
                 <button
-                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 text-black "
+                  className="bg-primary hover:bg-secondary p-3 rounded-xl text-xl font-bold w-40 hover:text-black "
                   type="submit"
                   value="Send"
                   disabled={

@@ -1,11 +1,13 @@
 import React from "react";
+import { AiOutlineLine } from "react-icons/ai";
 
 function About() {
   return (
     <React.Fragment>
       <div className=" flex flex-col bg-[#000c1f]  pt-8 pb-8" id="about">
-        <div className="flex flex-col text-white ">
+        <div className="flex flex-col text-white items-center">
           <p className="text-center text-4xl font-bold ">Sobre mí</p>
+          <AiOutlineLine className="text-primary text-4xl" />
         </div>
         <div className="flex  items-center">
           <div className=" md:mt-3 my-5 p-4 md:mx-28  mx-8">
