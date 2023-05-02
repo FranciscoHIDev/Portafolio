@@ -20,7 +20,7 @@ function TestimonialsCard({
           <RiDoubleQuotesL className="flex text-primary" />
         </div>
 
-        <p className="mb-3 mt-3 text-justify px-2 text-colortext"> {comment}</p>
+        <p className="mb-2 mt-2 text-justify px-2 text-colortext"> {comment}</p>
         <div className="flex justify-end">
           {" "}
           <RiDoubleQuotesR className="text-primary" />
