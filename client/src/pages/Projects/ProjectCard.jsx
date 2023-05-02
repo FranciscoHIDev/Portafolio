@@ -6,8 +6,8 @@ import { TbWorldWww } from "react-icons/tb";
 function ProjectCard({ title, item, image, tech, demo, repo }) {
   return (
     <>
-      <div className="flex flex-col-reverse md:flex-row  bg-cards  py-14 rounded-2xl  md:mb-20 mb-10">
-        <div className="flex flex-col md:w-[50%] md:mx-10  rounded-xl  justify-center">
+      <div className="flex flex-col-reverse lg:flex-row  bg-cards  py-14 rounded-2xl  md:mb-20 mb-10">
+        <div className="flex flex-col lg:w-[50%] lg:mx-10  rounded-xl  justify-center">
           <p className="text-2xl mb-4 mt-2 text-center text-white">{title}</p>
           <p className=" md:text-[19px] text-justify px-4 text-colortext">
             {item}
@@ -34,7 +34,7 @@ function ProjectCard({ title, item, image, tech, demo, repo }) {
             </div>
           </div>
         </div>
-        <div className="rounded-xl  md:mr-10  md:w-[50%] md:mx-0 mx-10 ">
+        <div className="rounded-xl  lg:mr-10  lg:w-[50%] lg:mx-0 mx-10 ">
           <img className="rounded-xl " src={image} alt="image" />
         </div>
       </div>
