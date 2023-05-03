@@ -54,7 +54,7 @@ function Home() {
         <div className="flex flex-col lg:mx-10 text-white lg:mt-28 lg:mr-0  mx-10 mt-10 items-center lg:items-start lg:w-[50%]">
           <p className="text-2xl mb-3 ">¡Hola! Bienvedin@</p>
           <p className="text-3xl mb-3"> Soy Isidoro Francisco</p>
-          <h1 className="text-3xl md:text-4xl text-primary font-bold block animate-typing overflow-hidden whitespace-nowrap">
+          <h1 className="text-3xl md:text-4xl text-white font-bold block animate-typing overflow-hidden whitespace-nowrap">
             FULL STACK DEVELOPER
           </h1>
 

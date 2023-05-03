@@ -67,7 +67,7 @@ function Contact() {
             <AiOutlineLine className="text-primary text-4xl" />
           </div>
           <div className="pb-10 md:mx-0 mx-10">
-            <p className="md:font-bold  md:text-lg text-justify">
+            <p className="md:font-bold  md:text-lg text-justify text-colortext">
               Completa el siguiente formulario y me pondre en contacto lo más
               pronto posible.
             </p>
