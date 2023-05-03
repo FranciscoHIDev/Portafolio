@@ -6,13 +6,6 @@ import { CgMenu, CgClose, CgMenuRightAlt } from "react-icons/cg";
 function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
 
-  // function handleClick() {
-  //   scroll.scrollTo("about", {
-  //     duration: 500,
-  //     smooth: true,
-  //   });
-  // }
-
   return (
     <div className=" shadow-md w-full fixed top-0 left-0  bg-menu ">
       <div className="container mx-auto m-4 md:m-3">
