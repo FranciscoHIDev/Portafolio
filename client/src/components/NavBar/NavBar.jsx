@@ -6,11 +6,19 @@ import { CgMenu, CgClose, CgMenuRightAlt } from "react-icons/cg";
 function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
 
+  const handleMenuClick = () => {
+    setOpenMenu(!openMenu);
+  };
+
+  const handleLinkClick = () => {
+    setOpenMenu(false);
+  };
+
   return (
     <div className=" shadow-md w-full fixed top-0 left-0  bg-menu ">
       <div className="container mx-auto m-4 md:m-3">
         <div
-          onClick={() => setOpenMenu(!openMenu)}
+          onClick={handleMenuClick}
           className=" absolute right-6 top-4  cursor-pointer lg:hidden"
         >
           {openMenu ? (
@@ -23,6 +31,7 @@ function NavBar() {
           <Link
             to="/"
             className="text-white text-3xl font-bold p-4 cursor-pointer"
+            onClick={handleLinkClick}
           >
             {"<FranciscoDev/>"}
           </Link>
@@ -34,12 +43,13 @@ function NavBar() {
           >
             <ul>
               <li className="sm:inline-block">
-                <button className=" focus:text-primary hover:text-primary p-[5px]">
+                <button className=" focus:text-primary hover:text-primary p-[5px] ">
                   <Link
                     to="about"
                     className="p-3"
                     smooth={true}
                     duration={1500}
+                    onClick={handleLinkClick}
                   >
                     Sobre mí
                   </Link>
@@ -52,6 +62,7 @@ function NavBar() {
                     className="p-3"
                     smooth={true}
                     duration={1500}
+                    onClick={handleLinkClick}
                   >
                     Habilidades
                   </Link>
@@ -64,6 +75,7 @@ function NavBar() {
                     className="p-3"
                     smooth={true}
                     duration={1500}
+                    onClick={handleLinkClick}
                   >
                     Proyectos
                   </Link>
@@ -77,6 +89,7 @@ function NavBar() {
                     className="p-3"
                     smooth={true}
                     duration={1500}
+                    onClick={handleLinkClick}
                   >
                     Testimonios
                   </Link>
@@ -89,6 +102,7 @@ function NavBar() {
                     className="p-3"
                     smooth={true}
                     duration={1500}
+                    onClick={handleLinkClick}
                   >
                     Contacto
                   </Link>

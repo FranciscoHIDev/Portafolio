@@ -11,7 +11,7 @@ function TestimonialsCard({
 }) {
   return (
     <>
-      <div className="flex flex-col bg-cards   rounded-xl lg:w-[450px] w-[310px] p-6 m-3 ">
+      <div className="flex flex-col bg-cards   rounded-xl lg:w-[450px] w-[310px] p-6 m-3">
         <div className="flex justify-center">
           <img className="w-20 h-20 rounded-full" src={image} alt="image" />
         </div>

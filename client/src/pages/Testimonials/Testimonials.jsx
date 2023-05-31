@@ -9,13 +9,35 @@ import "./Testimonials.css";
 
 function Testimonials() {
   const testimonial = data;
-  const settings = {
+  const isMobile = window.innerWidth < 768;
+
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   speed: 3000,
+  // };
+  const mobileSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    speed: 500,
+    autoplay: true,
   };
+
+  const desktopSettings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    speed: 500,
+    autoplay: true,
+  };
+
+  const settings = isMobile ? mobileSettings : desktopSettings;
 
   return (
     <React.Fragment>
@@ -23,13 +45,11 @@ function Testimonials() {
         className="flex flex-col bg-background lg:pt-28 pt-20"
         id="testimonials"
       >
-        <div className="flex flex-col text-white items-center ">
+        <div className="flex flex-col text-white items-center">
           <p className="text-center text-4xl font-bold">Testimonios</p>
           <AiOutlineLine className="text-primary text-4xl" />
 
-          {/* className="flex mb-[10px] mt-5 flex-wrap justify-center " */}
-
-          <div className="carousel-container">
+          <div className="container  mt-8 px-8 md:px-28">
             <Slider {...settings}>
               {testimonial?.map((t) => {
                 return (
