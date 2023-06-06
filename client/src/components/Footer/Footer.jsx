@@ -44,7 +44,7 @@ function Footer() {
             <FaTwitterSquare />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=529984921643&text=hola,%20qu%C3%A9%20tal?"
+            href="https://api.whatsapp.com/send?phone=529833282730&text=hola"
             target="_blank"
             className="mr-3 text-2xl text-primary hover:text-secondary"
           >
@@ -83,7 +83,7 @@ function Footer() {
             <FaTwitterSquare />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=529984921643&text=hola,%20qu%C3%A9%20tal?"
+            href="https://api.whatsapp.com/send?phone=529833282730&text=hola"
             target="_blank"
             className="mr-3 text-3xl text-primary hover:text-secondary"
           >

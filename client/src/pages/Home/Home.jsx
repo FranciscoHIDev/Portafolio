@@ -38,7 +38,7 @@ function Home() {
             <FaTwitterSquare />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=529984921643&text=hola,%20qu%C3%A9%20tal?"
+            href="https://api.whatsapp.com/send?phone=529833282730&text=hola"
             target="_blank"
             className="pb-2 text-4xl text-primary hover:text-secondary"
           >
@@ -59,12 +59,17 @@ function Home() {
           </h1>
 
           <div className="flex py-2 text-white">
-            <Link
-              to="#cv"
-              className="   m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary hover:text-black cursor-pointer"
+            <a
+              href="https://drive.google.com/file/d/14SQW4krC4y2JIa-8kE2dxVIBd3I8CoXD/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className=" m-3 p-2 text-lg rounded-xl bg-primary
+              hover:bg-secondary hover:text-black cursor-pointer"
             >
+              {" "}
               DESCARGAR CV
-            </Link>
+            </a>
             <Link
               to="contact"
               className="m-3 p-2 text-lg rounded-xl bg-primary hover:bg-secondary  hover:text-black  cursor-pointer"

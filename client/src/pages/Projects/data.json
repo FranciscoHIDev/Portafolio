@@ -1,7 +1,7 @@
 [
   {
     "title": "CarMania App",
-    "item": "Carmania es una aplicacion e-commerce sobre venta de autos nuevos y usados, donde el usuario puede navegar de manera amigable utilizar nuestro formulario de contacto, pude agregar a favoritos, utilizar filtros de precios, categorias, modelos o buscar autos por marcas, cuenta con un perfil de usuario, un dashboard para el administrador y pasarela de MercadoPago.",
+    "item": "Carmania es una aplicación e-commerce sobre venta de autos nuevos y usados, donde el usuario puede navegar de manera amigable utilizar nuestro formulario de contacto, puede agregar a favoritos, utilizar filtros de precios, categorías, modelos o buscar autos por marcas, cuenta con un perfil de usuario, un dashboard para el administrador y pasarela de MercadoPago.",
     "image": "https://res.cloudinary.com/duaysiozi/image/upload/v1680930807/carmaniajpg_gm1prf.jpg",
     "tech": [
       "JavaScript",

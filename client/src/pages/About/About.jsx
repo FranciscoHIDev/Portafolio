@@ -12,14 +12,14 @@ function About() {
         <div className="flex  items-center">
           <div className=" md:mt-3 my-5 p-4 md:mx-28  mx-8">
             <p className="md:text-2xl text-justify text-colortext">
-              Soy Licenciado en Administración de Empresas y Full Stack
-              Developer, soy una persona con competencias enfocadas al trabajo
-              en equipo, responsable, proactivo y con comunicación asertiva, me
-              gusta mucho aprender de las experiencias y poder crecer
-              profesionalmente, estoy abierto a nuevos retos, me apasiona mucho
-              la tecnología es por lo inicie esta nueva etapa en el desarrollo
-              web y curse un bootcamp en Henry, actualmente sigo capacitandome y
-              aprendiendo nuevas herramientas.
+              Soy Full Stack Developer y Licenciado en Administración de
+              Empresas. Poseo habilidades en trabajo en equipo, responsabilidad,
+              proactividad y comunicación asertiva. Mi pasión por aprender y
+              crecer profesionalmente me ha llevado a sumergirme en el mundo de
+              la tecnología, lo cual me motivó a iniciar una nueva etapa en el
+              desarrollo web. He cursado un bootcamp en Henry y actualmente
+              continúo capacitándome y adquiriendo conocimentos en nuevas
+              tecnologías.
             </p>
           </div>
         </div>
